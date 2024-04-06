@@ -3,6 +3,7 @@ version: '3.8'
 services:
   web_app:
     container_name: web_app_container
+    image: chaiyaphat12079/vue-app:1.0.1
     build:
       context: .
       dockerfile: Dockerfile
